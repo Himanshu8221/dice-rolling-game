@@ -3,7 +3,7 @@ const dice = document.getElementById("dice");
 const resultText = document.getElementById("result-text");
 const historyList = document.getElementById("history");
 
-const rollSound = new Audio("sounds/roll.mp3");
+const rollSound = new Audio("sounds/dice_roll-96878.mp3");
 
 function rollDice() {
   // Play sound
