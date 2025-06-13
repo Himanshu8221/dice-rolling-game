@@ -25,7 +25,7 @@ function rollDice() {
     const newEntry = document.createElement("li");
     newEntry.textContent = `🎲 ${randomNum}`;
     historyList.prepend(newEntry);
-    if (historyList.children.length > 6) {
+    if (historyList.children.length > 3) {
       historyList.removeChild(historyList.lastChild);
     }
   }, 600); // Wait for animation
